@@ -11,35 +11,34 @@ body {
 .main-title {
     font-family: 'Gloria Hallelujah', cursive;
     text-align:center;
-    font-size:4em;
+    font-size:2.5em;
     margin: 0;
     margin-top: 10px;
     color:black;
-    background-color: #FFF0A1;
     box-shadow: 0px 0px 20px 2px black;
     width: 600px;
+}
+.main-title-padding{
+    padding-top: 10px; 
+}
+
+.games-in-a-cup-color {
+    background-color: #FFF0A1;
 }
 
 .main-title-container {
     display:flex;
     justify-content: center;
     position: relative;
-    top: 20px;
-    z-index: 1;
+    top: -10px;
+    z-index: 2; 
 }
 
-.game-title {
-    font-family: 'Gloria Hallelujah', cursive;
-    text-align:center;
-    font-size:4em;
-    margin: 0;
-    margin-top: 10px;
-    color:black;
-    background-color: white;
-    box-shadow: 0px 0px 20px 2px black;
-    width: 600px;
-}
+.games-region {
+    position: relative;
+    top:-90px;
 
+}
 .game-title-container {
     display:flex;
     justify-content: center;
@@ -68,15 +67,15 @@ body {
 
 .topnav a {
     text-decoration: none; 
-    color:white;
+    color:white; 
     font-size: 1em;
     transition: 0.3s ease-in-out;
     text-align: center;
     line-height: 2em; 
     border-radius: 20px; 
     padding: 5px;
-    font-family: 'Raleway', sans-serif;
-    background-color: #b34845; 
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #6358A1;     
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
 
 }
@@ -86,6 +85,7 @@ body {
     background-color: #FFF0A1;
     position: relative;
     z-index: 10;
+    top:-50px; 
 }
 
 .content-background {
@@ -93,26 +93,54 @@ body {
 }
 
 .between-topnav-and-content {
-    height: 20px;
+    height: 60px;
     background-color: #FFF0A1;
+    position: relative;
+    top:-50px;
 }
 
 .topnav-shadow {    
     box-shadow: 0px 0px 20px 2px black;
     position: relative;
-    top: 0;
+    top: -50px;
     left: 0;
     width: 100%;
-    z-index: -1;
 }
-.topnav-bottom {
+.topnav-motto {
     background-color: #FFF0A1;
-    height: 30px;
-    
+    height: 120px;
+    position: relative;
+    top:-50px; 
+    text-align: center; 
 }
 
+.topnav-motto-inner {
+    position: relative;
+    top:30px;
+}
 .topnav-button {
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.pirate-mice-color {
+    background-color: white;
+}
+
+.about-color {
+    background-color: #b41813; 
+}
+
+.contact-color {
+    background-color: antiquewhite; 
+}
+
+.pirate-mice-content {
+    padding-top: 70px;
+    top: -50px;
+    position: relative;
+}
+.main-title-position {
+    z-index: 2;
 }
