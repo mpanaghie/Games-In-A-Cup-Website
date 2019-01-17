@@ -85,7 +85,6 @@ body {
     background-color: #FFF0A1;
     position: relative;
     z-index: 10;
-    top:-50px; 
 }
 
 .content-background {
@@ -93,9 +92,10 @@ body {
 }
 
 .between-topnav-and-content {
-    height: 60px;
+    height: 40px;
     background-color: #FFF0A1;
     position: relative;
+    z-index:0;
     top:-50px;
 }
 
